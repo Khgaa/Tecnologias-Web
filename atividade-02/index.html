@@ -8,6 +8,7 @@
 <body>
     
     <header>
+
         <h1>Futebol Brasileiro - Ranking de Títulos</h1>
 
         <p>Os maiores campeões nacionais do Brasil</p>
@@ -58,87 +59,224 @@
                         <th><img src="img/time2.png"></th>
                         <th>Flamengo</th>
                         <td style="text-align: center;">8*</td>
-                        <th>5</th>
-                        <th>13</th>
+                        <td style="text-align: center;">5</td>
+                        <td style="text-align: center;">13</td>
                     </tr>
 
                     <tr>
                         <th>3°</th>
                         <th><img src="img/time3.png" style="transform: rotate(180deg)"></th>
                         <th>Corinthians</th>
-                        <th>7</th>
-                        <th>4</th>
-                        <th>11</th>
+                        <td style="text-align: center;">7</td>
+                        <td style="text-align: center;">4</td>
+                        <td style="text-align: center;">11</td>
                     </tr>
 
                     <tr>
                         <th>4°</th>
                         <th><img src="img/time4.png"></th>
                         <th>Cruzeiro</th>
-                        <th>4</th>
-                        <th>6</th>
-                        <th>10</th>
+                        <td style="text-align: center;">4</td>
+                        <td style="text-align: center;">6</td>
+                        <td style="text-align: center;">10</td>
                     </tr>
 
                     <tr>
                         <th>5°</th>
                         <th><img src="img/time5.png"></th>
                         <th>Santos</th>
-                        <th>8</th>
-                        <th>1</th>
-                        <th>9</th>
+                        <td style="text-align: center;">8</td>
+                        <td style="text-align: center;">1</td>
+                        <td style="text-align: center;">9</td>
                     </tr>
 
                     <tr>
                         <th>6°</th>
-                        <th><img src="img/time6.png"></th>
+                        <th><img src="img/time7.png"></th>
                         <th>São Paulo</th>
-                        <th>6</th>
-                        <th>1</th>
-                        <th>7</th>
+                        <td style="text-align: center;">6</td>
+                        <td style="text-align: center;">1</td>
+                        <td style="text-align: center;">7</td>
                     </tr>
 
                     <tr>
                         <th>7°</th>
-                        <th><img src="img/time7.png"></th>
+                        <th><img src="img/time6.png"></th>
                         <th>Grêmio</th>
-                        <th>2</th>
-                        <th>5</th>
-                        <th>7</th>
+                        <td style="text-align: center;">2</td>
+                        <td style="text-align: center;">5</td>
+                        <td style="text-align: center;">7</td>
                     </tr>
 
                     <tr>
                         <th>8°</th>
-                        <th><img src="img/time8.png"></th>
+                        <th><img src="img/time9.png"></th>
                         <th>Vasco da Gama</th>
-                        <th>4</th>
-                        <th>1</th>
-                        <th>5</th>
+                        <td style="text-align: center;">4</td>
+                        <td style="text-align: center;">1</td>
+                        <td style="text-align: center;">5</td>
                     </tr>
 
                     <tr>
                         <th>9°</th>
-                        <th><img src="img/time9.png"></th>
+                        <th><img src="img/time10.png"></th>
                         <th>Fluminense</th>
-                        <th>4</th>
-                        <th>1</th>
-                        <th>5</th>
+                        <td style="text-align: center;">4</td>
+                        <td style="text-align: center;">1</td>
+                        <td style="text-align: center;">5</td>
                     </tr>
 
                     <tr>
                         <th>10°</th>
-                        <td><img src="img/time10.png"></td>
+                        <td><img src="img/time8.png"></td>
                         <th>Atlético Mineiro</th>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>5</td>
+                        <td style="text-align: center;">3</td>
+                        <td style="text-align: center;">2</td>
+                        <td style="text-align: center;">5</td>
                     </tr>
                 </tbody>
 
+                <tfoot>
+
+                    <tr>
+                        <td style="text-align: center;" colspan="6">*<i>87 é do Sport</i></td>
+                    </tr>
+                    
+                </tfoot>
+
             </table>
+
+            <hr>
+
+         </section>
+
+         <section id="cadastro">
+
+            <h2>Cadastro de Jogador</h2>
+
+            <p>Preencha todos os dados abaixo para cadastrar um novo jogador</p>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Dados Pessoais</legend>
+
+                    <p>
+                        <label for="nome">Nome Completo:</label>
+                        <br>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" id="email" name="email">
+                    </p>    
+
+                    <p>
+                        <label for="senha">Senha:</label>
+                        <br>
+                        <input type="password" id="senha" name="senha">
+                    </p>
+
+                    <p>
+                        <label for="data">Data de Nascimento:</label>
+                        <br>
+                        <input type="date" id="data" name="data">
+                    </p>
+
+                    <p>
+                        <label for="idade">Idade:</label>
+                        <br>
+                        <input type="number" id="idade" name="idade" min="0">
+                    </p>
+
+                    <p>
+                        <label for="altura">Altura (em metros):</label>
+                        <br>
+                        <input type="number" id="altura" name="altura" min="0">
+                    </p>
+
+                    <p>
+                        <label for="peso">Peso (em kg):</label>
+                        <br>
+                        <input type="range" id="peso" name="peso">
+                    </p>
+
+                    <p>
+                        <label for="telefone">Telefone:</label>
+                        <br>
+                        <input type="text" id="telefone" name="telefone">
+                    </p>
+
+                    <p>
+                        <label for="site">Site Pessoal:</label>
+                        <br>
+                        <input type="text" id="site" name="site">
+                    </p>
+
+                    <p>
+                        <label for="cor">Cor Favorita:</label>
+                        <br>
+                        <input type="color" id="cor" name="cor">
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Dados Profissionais</legend>
+
+                    <p>
+                        <label for="clube">Selecione um Clube:</label>
+                        <br>
+                        <input type="text" id="clube" name="clube">
+                    </p>
+
+                    <p>
+                        <label for="posicao">Posição Principal:</label>
+                        <br>
+                        <input type="text" id="posicao" name="posicao">
+                    </p>
+
+                    <p>
+                        <label for="camisa">Número da Camisa:</label>
+                        <br>
+                        <input type="number" id="camisa" name="camisa" min="0">
+                    </p>
+
+                    <p>
+                        <label for="contrato">Data de Vencimento do Contrato:</label>
+                        <br>
+                        <input type="date" id="contrato" name="contrato">
+                    </p>
+
+                    <p>
+                        <label for="treino">Horário de Treino Preferido:</label>
+                        <br>
+                        <input type="time" id="treino" name="treino">
+                    </p>
+
+                    <p>
+                        <label for="partida">Data e Hora da Última Partida:</label>
+                        <br>
+                        <input type="text" id="partida" name="partida">
+                    </p>
+
+                </fieldset>
+            </form>
 
          </section>
 
     </main>
+
+    <footer style="text-align: center;">
+        
+        <h3> Ciência da Computação - IFBA</h3>
+        <p>&copy; 2026.1 - Todos os direitos reservados</p>
+
+    </footer>
+
 </body>
 </html>
