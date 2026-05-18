@@ -1,0 +1,15 @@
+#teste{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+
+body {
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
