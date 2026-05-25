@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.card {
+    background-color: blue;
+    color: #fff;
+    
+}
